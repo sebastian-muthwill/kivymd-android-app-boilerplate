@@ -1,0 +1,8 @@
+setuptools
+# if kivy hase a problem to install via pip, try with
+# sudo apt install python3-kivy
+#kivy
+kivymd
+zbarcam
+buildozer
+Cython
