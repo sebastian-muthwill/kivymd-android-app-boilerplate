@@ -2,11 +2,11 @@
 
 The intention for this boilerplate is to have an easy starting point for android apps with material design.
 
-# Building Android apk
+## Building Android apk
 
 The APK is best build on an ubuntu system. Therefor we need to install some dependancies. 
 
-## prepare ubuntu system
+### prepare ubuntu system
 
 `sudo apt update`
 `sudo apt install git`
@@ -17,11 +17,11 @@ Initiate password for git (not realy needed but helpfull):
 
 To set the password run a pull command afterwards, so we clone now the repository. 
 
-## load repo from Gitlab / Azure DevOps / Github
+### load repo from Gitlab / Azure DevOps / Github
 
 `git clone <path to repo>`
 
-### install dependancies for Zbarscan
+#### install dependancies for Zbarscan
 
 `sudo apt install zlib1g-dev`
 
@@ -31,7 +31,7 @@ Go back to home folder
 
 `cd ..`
 
-## Buildozer install
+### Buildozer install
 
 ####  dependancies for buidozer
 
