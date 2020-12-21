@@ -194,7 +194,7 @@ Screen:
                     height: self.texture_size[1]
                 
                 MDLabel:
-                    text: "Mithilfe der App kann eine Stückliste durch Scannen eines Auto-ID Tags geöffnet werden. Dies funktioniert für Tags des Typ´s FLOC - Technischer Platz und / oder EQUI - Equipment. Sind beide Informationen auf dem Tag enthalten, wird das Equipment bevorzugt."
+                    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
                     height: self.texture_size[1]
 
             ScrollView:
