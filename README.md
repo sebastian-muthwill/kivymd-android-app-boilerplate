@@ -7,7 +7,7 @@ creatinon with for loops. This makes it easier for beginners to start.
 ### App features
 
 - QR / Barcode Scanner
-- Navigation Drawer
+- Navigation Drawer (Sidebar)
 - 3 Pages
 
 ![Screenshot](docs/KivyMDBoilerplateScreenshot.png?raw=true "Screenshot")
@@ -24,11 +24,20 @@ Now we are ready for a first test. Start the app with:
 
 `python main.py`
 
+If everything went well, you should now have a running KivyMD App.
+
 ## Next steps
 
 From here on you can develop the app to your needs. 
 
+
 ## Building Android apk
+
+Before you start building the apk uncomment the following 2 lines in main.py file:
+
+`# Remove the comment before apk build
+from android.permissions import request_permissions, Permission
+request_permissions([Permission.READ_EXTERNAL_STORAGE, Permission.WRITE_EXTERNAL_STORAGE, Permission.CAMERA, Permission.INTERNET])`
 
 The APK is best build on an ubuntu system. Therefor we need to install some dependancies. 
 

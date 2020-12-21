@@ -11,7 +11,7 @@ from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy_garden.zbarcam import ZBarCam
 from pyzbar.pyzbar import ZBarSymbol
 
-# Remove the comment bevore apk build
+# Remove the comment before apk build
 #from android.permissions import request_permissions, Permission
 #request_permissions([Permission.READ_EXTERNAL_STORAGE, Permission.WRITE_EXTERNAL_STORAGE, Permission.CAMERA, Permission.INTERNET])
 
