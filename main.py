@@ -11,9 +11,9 @@ from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy_garden.zbarcam import ZBarCam
 from pyzbar.pyzbar import ZBarSymbol
 
-# Comment out the following two lines for testing on pc
-from android.permissions import request_permissions, Permission
-request_permissions([Permission.READ_EXTERNAL_STORAGE, Permission.WRITE_EXTERNAL_STORAGE, Permission.CAMERA, Permission.INTERNET])
+# Remove the comment bevore apk build
+#from android.permissions import request_permissions, Permission
+#request_permissions([Permission.READ_EXTERNAL_STORAGE, Permission.WRITE_EXTERNAL_STORAGE, Permission.CAMERA, Permission.INTERNET])
 
 store = JsonStore('settings.json')
 
@@ -64,7 +64,7 @@ Screen:
                                 icon: 'qrcode-scan'
                             
                         OneLineIconListItem:
-                            text: 'Einstellungen'
+                            text: 'Settings'
                             on_press:
                                 root.ids.nav_drawer.set_state("close") 
                                 root.ids.manager.current = 'settings'

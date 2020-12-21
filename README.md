@@ -1,6 +1,32 @@
-# KivyMD Boilerplate APP
+# KivyMD Android App Boilerplate
 
 The intention for this boilerplate is to have an easy starting point for android apps with material design.
+The KV part is embeded withing the main file and all elements are created directly within KV without dynamic
+creatinon with for loops. This makes it easier for beginners to start.
+
+### App features
+
+- QR / Barcode Scanner
+- Navigation Drawer
+- 3 Pages
+
+![Screenshot](docs/KivyMDBoilerplateScreenshot.png?raw=true "Screenshot")
+
+## Local installation
+
+For local development best use virtual environment. [see here](https://docs.python.org/3/tutorial/venv.html)
+
+Once venv is installed and activated install project requirements:
+
+`pip install -r requirements.txt`
+
+Now we are ready for a first test. Start the app with:
+
+`python main.py`
+
+## Next steps
+
+From here on you can develop the app to your needs. 
 
 ## Building Android apk
 
