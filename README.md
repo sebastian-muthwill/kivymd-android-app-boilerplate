@@ -28,7 +28,8 @@ If everything went well, you should now have a running KivyMD App.
 
 ## Next steps
 
-From here on you can develop the app to your needs. 
+From here on you can develop the app to your needs.
+A good source to check out is [here](https://kivymd.readthedocs.io/en/latest/)
 
 
 ## Building Android apk
@@ -81,12 +82,12 @@ First install dependancies for buildozer
 `cd buildozer`
 `sudo python setup.py install`
 
-## Run Buildozer
+### Run Buildozer
 
 Now everything should be ready to build the APK.
 
 `cd <kivy-path>`
 `buildozer android debug`
 
-## Before rerun buildozer clear buildozer folder
+#### Before rerun buildozer clear buildozer folder
 `rm -rf .buildozer`
