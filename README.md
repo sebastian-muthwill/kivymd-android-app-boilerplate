@@ -89,5 +89,5 @@ Now everything should be ready to build the APK.
 `cd <kivy-path>`
 `buildozer android debug`
 
-#### Before rerun buildozer clear buildozer folder
+### Before rerun buildozer clear buildozer folder
 `rm -rf .buildozer`
