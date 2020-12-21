@@ -41,7 +41,7 @@ Screen:
                     source: 'logo.png'
 
                 MDLabel:
-                    text: "KivyMD Bilerplate App"
+                    text: "KivyMD Boilerplate App"
                     font_style: 'H5'
                     size_hint_y: None
                     height: self.texture_size[1]
